@@ -1,0 +1,27 @@
+
+<html >
+  <head>
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      day = new Date();
+      hour = day.getHours();
+      document.write(day, "</br>");
+      document.write(hour, "</br>");
+      if(hour >= 6 && hour < 12){
+        document.write("good morning")
+      }
+      else if(hour>=12 && hour<16 ){
+        document.write("good afternoon")
+      }
+      else if(hour>=16 && hour<20 ){
+        document.write("good evening")
+      }
+      else{
+        document.write("good night")
+      }
+    </script>
+  </body>
+</html>

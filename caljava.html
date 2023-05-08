@@ -1,0 +1,31 @@
+<html>
+    <head>
+     SIMPLE CALCULATOR<br>
+    </head>
+    <body>
+        <script>
+            var n1,n2,result;
+            n1=parseInt(prompt("Enter the first number"));
+            op=prompt("enter the operator");
+            n2=parseInt(prompt("Enter the second number"));
+           
+            switch(op)
+            {
+                case "+":result=n1+n2;
+                break;
+                case "-":result=n1-n2;
+                break;
+                case "*":result=n1*n2;
+                break;
+                case "/":result=n1/n2;
+                break;
+                case "%":result=n1%n2;
+                break;
+                default: alert("Enter the valid operator");
+                break;
+            }
+            document.write("Result ="+result);
+            
+        </script>
+    </body>
+</html>

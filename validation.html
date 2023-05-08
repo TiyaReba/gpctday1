@@ -1,0 +1,23 @@
+<html>
+    <head>
+<form>
+       <script>
+        function ValidataForm()
+        {
+            let x=document.myForm.Fname.value;
+            let y=document.myForm.lname.value;
+            if (x ==" " || y ==" ")
+            alert("Enter a valid name");
+            return false;
+        }
+       </script> 
+    </head>
+    <body>
+    <h2>JavaScript Validation</h2>
+    <form name ="myForm" action=" " onesubit="Validata()" method="post"></form>
+Fname<input type="text " name="Fname"><br>
+lname <input type="text" name="lname"><br>
+<input type="submit" value="submit">
+    </form>
+      </body>
+</html>
